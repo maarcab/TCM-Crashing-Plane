@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 630339734}
   - component: {fileID: 630339740}
   - component: {fileID: 630339741}
+  - component: {fileID: 630339742}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -520,6 +521,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff7bcfa68bbc0e4e8079fe6a5ddce9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &630339742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630339733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3e4232fd9c24044b4e50eadc3d2504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &684214252
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +575,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 684214253}
     m_Modifications:
+    - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3283835cebd1714478e54622f2119828, type: 3}
     - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -664,6 +681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 684214253}
     m_Modifications:
+    - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3283835cebd1714478e54622f2119828, type: 3}
     - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -828,9 +849,9 @@ MonoBehaviour:
   _spawnAtBegining: 1
   _useRandomPrefab: 1
   _prefabs:
-  - {fileID: 5159174393068658102, guid: ad8ef54bfd8049d4897b25e7ec388cca, type: 3}
-  - {fileID: 2441028125726398853, guid: 5642e6fa2b16b3f4ca9300a14e245155, type: 3}
+  - {fileID: 5159174393068658102, guid: 24bde0bd07fb0c845a48cdadfa0e98b1, type: 3}
   - {fileID: 5635679338715889869, guid: 00b56d72435aa424ea374f6c10b937e7, type: 3}
+  - {fileID: 4579027487888459884, guid: dcd36a61b8213f24d8a2e42795db917a, type: 3}
 --- !u!4 &1846705571
 Transform:
   m_ObjectHideFlags: 0
@@ -888,6 +909,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 684214253}
     m_Modifications:
+    - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3283835cebd1714478e54622f2119828, type: 3}
     - target: {fileID: 2408924363467627011, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
